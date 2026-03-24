@@ -9,9 +9,7 @@ from airflow.operators.python import PythonOperator
 from airflow.sensors.external_task import ExternalTaskSensor
 import great_expectations as ge
 
-# -------------------------------
 # DAG configuration
-# -------------------------------
 OWNER = "a.tihanova"
 DAG_ID = "raw_from_s3_to_pg_with_validation"
 
